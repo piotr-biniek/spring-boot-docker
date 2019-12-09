@@ -1,0 +1,9 @@
+docker build -f Dockerfile -t my-app-name* . 
+
+4Gcloud (docker must be connected with gcloud SDK)
+docker tag my-app-name* eu.gcr.io/docker-repo-name-from-gcoud*/my-app-name*
+
+docker push whole-tagged-name-from-abowe*
+
+
+*put apropiate value
